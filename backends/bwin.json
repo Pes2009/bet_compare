@@ -1,0 +1,1322 @@
+[
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.48",
+            "team": "Athletic Club"
+        },
+        "meta": {
+            "home": "Athletic Club",
+            "away": "UD Las Palmas"
+        },
+        "X": {
+            "odds": "4.33",
+            "team": "X"
+        },
+        "2": {
+            "odds": "6.00",
+            "team": "UD Las Palmas"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.10",
+            "team": "Deportivo La Coruna"
+        },
+        "meta": {
+            "home": "Deportivo La Coruna",
+            "away": "Malaga"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.50",
+            "team": "Malaga"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "7.50",
+            "team": "Sporting Gijon"
+        },
+        "meta": {
+            "home": "Sporting Gijon",
+            "away": "Real Madrid"
+        },
+        "X": {
+            "odds": "5.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.36",
+            "team": "Real Madrid"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.17",
+            "team": "Atletico Madrid"
+        },
+        "meta": {
+            "home": "Atletico Madrid",
+            "away": "Osasuna"
+        },
+        "X": {
+            "odds": "7.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "14.00",
+            "team": "Osasuna"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.18",
+            "team": "FC Barcelona"
+        },
+        "meta": {
+            "home": "FC Barcelona",
+            "away": "Real Sociedad"
+        },
+        "X": {
+            "odds": "6.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "13.50",
+            "team": "Real Sociedad"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.10",
+            "team": "Leganes"
+        },
+        "meta": {
+            "home": "Leganes",
+            "away": "Espanyol"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.60",
+            "team": "Espanyol"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.50",
+            "team": "CF Valencia"
+        },
+        "meta": {
+            "home": "CF Valencia",
+            "away": "FC Sevilla"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.70",
+            "team": "FC Sevilla"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.55",
+            "team": "Real Betis"
+        },
+        "meta": {
+            "home": "Real Betis",
+            "away": "SD Eibar"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.75",
+            "team": "SD Eibar"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.75",
+            "team": "Granada CF"
+        },
+        "meta": {
+            "home": "Granada CF",
+            "away": "Celta de Vigo"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.45",
+            "team": "Celta de Vigo"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.90",
+            "team": "Deportivo Alaves"
+        },
+        "meta": {
+            "home": "Deportivo Alaves",
+            "away": "Villarreal"
+        },
+        "X": {
+            "odds": "3.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.55",
+            "team": "Villarreal"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.25",
+            "team": "FC Sevilla"
+        },
+        "meta": {
+            "home": "FC Sevilla",
+            "away": "Granada CF"
+        },
+        "X": {
+            "odds": "6.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "9.50",
+            "team": "Granada CF"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.25",
+            "team": "Malaga"
+        },
+        "meta": {
+            "home": "Malaga",
+            "away": "CF Valencia"
+        },
+        "X": {
+            "odds": "3.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.10",
+            "team": "CF Valencia"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.55",
+            "team": "Villarreal"
+        },
+        "meta": {
+            "home": "Villarreal",
+            "away": "Leganes"
+        },
+        "X": {
+            "odds": "3.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "6.25",
+            "team": "Leganes"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.45",
+            "team": "Osasuna"
+        },
+        "meta": {
+            "home": "Osasuna",
+            "away": "Sporting Gijon"
+        },
+        "X": {
+            "odds": "3.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.00",
+            "team": "Sporting Gijon"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "5.00",
+            "team": "Espanyol"
+        },
+        "meta": {
+            "home": "Espanyol",
+            "away": "Atletico Madrid"
+        },
+        "X": {
+            "odds": "3.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.65",
+            "team": "Atletico Madrid"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.80",
+            "team": "Real Sociedad"
+        },
+        "meta": {
+            "home": "Real Sociedad",
+            "away": "Deportivo La Coruna"
+        },
+        "X": {
+            "odds": "3.50",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.33",
+            "team": "Deportivo La Coruna"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.15",
+            "team": "Inter Milan"
+        },
+        "meta": {
+            "home": "Inter Milan",
+            "away": "AC Milan"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.20",
+            "team": "AC Milan"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.30",
+            "team": "Fiorentina"
+        },
+        "meta": {
+            "home": "Fiorentina",
+            "away": "FC Empoli"
+        },
+        "X": {
+            "odds": "5.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "9.50",
+            "team": "FC Empoli"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.10",
+            "team": "Cagliari"
+        },
+        "meta": {
+            "home": "Cagliari",
+            "away": "Chievo"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.40",
+            "team": "Chievo"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.55",
+            "team": "Torino"
+        },
+        "meta": {
+            "home": "Torino",
+            "away": "Crotone"
+        },
+        "X": {
+            "odds": "4.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "5.75",
+            "team": "Crotone"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.48",
+            "team": "AS Roma"
+        },
+        "meta": {
+            "home": "AS Roma",
+            "away": "Atalanta"
+        },
+        "X": {
+            "odds": "4.50",
+            "team": "X"
+        },
+        "2": {
+            "odds": "5.75",
+            "team": "Atalanta"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.50",
+            "team": "Palermo"
+        },
+        "meta": {
+            "home": "Palermo",
+            "away": "Bologna"
+        },
+        "X": {
+            "odds": "3.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.80",
+            "team": "Bologna"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "4.75",
+            "team": "Genoa CFC"
+        },
+        "meta": {
+            "home": "Genoa CFC",
+            "away": "Lazio Rome"
+        },
+        "X": {
+            "odds": "3.80",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.67",
+            "team": "Lazio Rome"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "8.75",
+            "team": "Pescara"
+        },
+        "meta": {
+            "home": "Pescara",
+            "away": "Juventus"
+        },
+        "X": {
+            "odds": "5.50",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.30",
+            "team": "Juventus"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.10",
+            "team": "Sassuolo"
+        },
+        "meta": {
+            "home": "Sassuolo",
+            "away": "Sampdoria"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.30",
+            "team": "Sampdoria"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.25",
+            "team": "SSC Napoli"
+        },
+        "meta": {
+            "home": "SSC Napoli",
+            "away": "Udinese"
+        },
+        "X": {
+            "odds": "5.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "10.00",
+            "team": "Udinese"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.33",
+            "team": "Atalanta"
+        },
+        "meta": {
+            "home": "Atalanta",
+            "away": "Bologna"
+        },
+        "X": {
+            "odds": "4.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "9.25",
+            "team": "Bologna"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.25",
+            "team": "Fiorentina"
+        },
+        "meta": {
+            "home": "Fiorentina",
+            "away": "Inter Milan"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.00",
+            "team": "Inter Milan"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "7.50",
+            "team": "Sassuolo"
+        },
+        "meta": {
+            "home": "Sassuolo",
+            "away": "SSC Napoli"
+        },
+        "X": {
+            "odds": "4.50",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.40",
+            "team": "SSC Napoli"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.90",
+            "team": "Chievo"
+        },
+        "meta": {
+            "home": "Chievo",
+            "away": "Torino"
+        },
+        "X": {
+            "odds": "3.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.40",
+            "team": "Torino"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.25",
+            "team": "Tottenham Hotspur"
+        },
+        "meta": {
+            "home": "Tottenham Hotspur",
+            "away": "Bournemouth"
+        },
+        "X": {
+            "odds": "5.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "10.50",
+            "team": "Bournemouth"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.91",
+            "team": "Stoke City"
+        },
+        "meta": {
+            "home": "Stoke City",
+            "away": "Hull City"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.00",
+            "team": "Hull City"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "3.20",
+            "team": "Sunderland"
+        },
+        "meta": {
+            "home": "Sunderland",
+            "away": "West Ham United"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.15",
+            "team": "West Ham United"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.35",
+            "team": "Watford"
+        },
+        "meta": {
+            "home": "Watford",
+            "away": "Swansea City"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.00",
+            "team": "Swansea City"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.87",
+            "team": "Crystal Palace"
+        },
+        "meta": {
+            "home": "Crystal Palace",
+            "away": "Leicester City"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.10",
+            "team": "Leicester City"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.45",
+            "team": "Everton"
+        },
+        "meta": {
+            "home": "Everton",
+            "away": "Burnley"
+        },
+        "X": {
+            "odds": "4.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "7.00",
+            "team": "Burnley"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "4.50",
+            "team": "Southampton FC"
+        },
+        "meta": {
+            "home": "Southampton FC",
+            "away": "Manchester City"
+        },
+        "X": {
+            "odds": "3.80",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.70",
+            "team": "Manchester City"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "4.25",
+            "team": "West Bromwich"
+        },
+        "meta": {
+            "home": "West Bromwich",
+            "away": "Liverpool FC"
+        },
+        "X": {
+            "odds": "3.60",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.80",
+            "team": "Liverpool FC"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.60",
+            "team": "Manchester Utd"
+        },
+        "meta": {
+            "home": "Manchester Utd",
+            "away": "Chelsea FC"
+        },
+        "X": {
+            "odds": "3.10",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.75",
+            "team": "Chelsea FC"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "6.25",
+            "team": "Middlesbrough FC"
+        },
+        "meta": {
+            "home": "Middlesbrough FC",
+            "away": "Arsenal FC"
+        },
+        "X": {
+            "odds": "3.90",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.53",
+            "team": "Arsenal FC"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.35",
+            "team": "Swansea City"
+        },
+        "meta": {
+            "home": "Swansea City",
+            "away": "Stoke City"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.00",
+            "team": "Stoke City"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "3.20",
+            "team": "West Ham United"
+        },
+        "meta": {
+            "home": "West Ham United",
+            "away": "Everton"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.25",
+            "team": "Everton"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.83",
+            "team": "Bournemouth"
+        },
+        "meta": {
+            "home": "Bournemouth",
+            "away": "Middlesbrough FC"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.33",
+            "team": "Middlesbrough FC"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.00",
+            "team": "Hull City"
+        },
+        "meta": {
+            "home": "Hull City",
+            "away": "Watford"
+        },
+        "X": {
+            "odds": "3.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.75",
+            "team": "Watford"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.00",
+            "team": "1899 Hoffenheim"
+        },
+        "meta": {
+            "home": "1899 Hoffenheim",
+            "away": "Borussia M\u00f6nchengladbach"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.70",
+            "team": "Borussia M\u00f6nchengladbach"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.44",
+            "team": "RasenBallsport Leipzig"
+        },
+        "meta": {
+            "home": "RasenBallsport Leipzig",
+            "away": "SC Freiburg"
+        },
+        "X": {
+            "odds": "4.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "6.75",
+            "team": "SC Freiburg"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.35",
+            "team": "FSV Mainz 05"
+        },
+        "meta": {
+            "home": "FSV Mainz 05",
+            "away": "Hertha BSC"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.85",
+            "team": "Hertha BSC"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.35",
+            "team": "Borussia Dortmund"
+        },
+        "meta": {
+            "home": "Borussia Dortmund",
+            "away": "Eintracht Frankfurt"
+        },
+        "X": {
+            "odds": "5.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "7.25",
+            "team": "Eintracht Frankfurt"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.70",
+            "team": "FC Augsburg"
+        },
+        "meta": {
+            "home": "FC Augsburg",
+            "away": "1. FC K\u00f6ln"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.50",
+            "team": "1. FC K\u00f6ln"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.85",
+            "team": "VfL Wolfsburg"
+        },
+        "meta": {
+            "home": "VfL Wolfsburg",
+            "away": "FC Ingolstadt 04"
+        },
+        "X": {
+            "odds": "3.60",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.00",
+            "team": "FC Ingolstadt 04"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "5.00",
+            "team": "Bayer Leverkusen"
+        },
+        "meta": {
+            "home": "Bayer Leverkusen",
+            "away": "FC Bayern Munich"
+        },
+        "X": {
+            "odds": "4.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.55",
+            "team": "FC Bayern Munich"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.15",
+            "team": "Werder Bremen"
+        },
+        "meta": {
+            "home": "Werder Bremen",
+            "away": "Hamburger SV"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.20",
+            "team": "Hamburger SV"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "4.75",
+            "team": "SV Darmstadt 98"
+        },
+        "meta": {
+            "home": "SV Darmstadt 98",
+            "away": "FC Schalke 04"
+        },
+        "X": {
+            "odds": "3.90",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.65",
+            "team": "FC Schalke 04"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.65",
+            "team": "1. FC K\u00f6ln"
+        },
+        "meta": {
+            "home": "1. FC K\u00f6ln",
+            "away": "1899 Hoffenheim"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.55",
+            "team": "1899 Hoffenheim"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.12",
+            "team": "FC Bayern Munich"
+        },
+        "meta": {
+            "home": "FC Bayern Munich",
+            "away": "FSV Mainz 05"
+        },
+        "X": {
+            "odds": "8.50",
+            "team": "X"
+        },
+        "2": {
+            "odds": "17.00",
+            "team": "FSV Mainz 05"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.25",
+            "team": "Hertha BSC"
+        },
+        "meta": {
+            "home": "Hertha BSC",
+            "away": "VfL Wolfsburg"
+        },
+        "X": {
+            "odds": "3.50",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.95",
+            "team": "VfL Wolfsburg"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.50",
+            "team": "Hamburger SV"
+        },
+        "meta": {
+            "home": "Hamburger SV",
+            "away": "SV Darmstadt 98"
+        },
+        "X": {
+            "odds": "4.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "6.50",
+            "team": "SV Darmstadt 98"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "2.20",
+            "team": "FC Ingolstadt 04"
+        },
+        "meta": {
+            "home": "FC Ingolstadt 04",
+            "away": "Werder Bremen"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.10",
+            "team": "Werder Bremen"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "1.85",
+            "team": "Eintracht Frankfurt"
+        },
+        "meta": {
+            "home": "Eintracht Frankfurt",
+            "away": "FC Augsburg"
+        },
+        "X": {
+            "odds": "3.60",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.00",
+            "team": "FC Augsburg"
+        }
+    },
+    {
+        "date": {
+            "hour": "6:30 PM",
+            "day": "X"
+        },
+        "1": {
+            "odds": "3.95",
+            "team": "Borussia M\u00f6nchengladbach"
+        },
+        "meta": {
+            "home": "Borussia M\u00f6nchengladbach",
+            "away": "Borussia Dortmund"
+        },
+        "X": {
+            "odds": "3.60",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.85",
+            "team": "Borussia Dortmund"
+        }
+    }
+]
