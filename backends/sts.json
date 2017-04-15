@@ -1,0 +1,170 @@
+[
+    {
+        "1": {
+            "odds": "2.25",
+            "team": "Werder"
+        },
+        "X": {
+            "odds": "3.30",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.05",
+            "team": "Hamburg"
+        }
+    },
+    {
+        "1": {
+            "odds": "4.77",
+            "team": "Darmstadt"
+        },
+        "X": {
+            "odds": "3.75",
+            "team": "X"
+        },
+        "2": {
+            "odds": "1.67",
+            "team": "Schalke"
+        }
+    },
+    {
+        "1": {
+            "odds": "2.85",
+            "team": "FC"
+        },
+        "X": {
+            "odds": "3.35",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.35",
+            "team": "Hoffenheim"
+        }
+    },
+    {
+        "1": {
+            "odds": "1.12",
+            "team": "Bayern"
+        },
+        "X": {
+            "odds": "8.00",
+            "team": "X"
+        },
+        "2": {
+            "odds": "17.42",
+            "team": "Mainz"
+        }
+    },
+    {
+        "1": {
+            "odds": "2.30",
+            "team": "Hertha"
+        },
+        "X": {
+            "odds": "3.20",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.05",
+            "team": "Wolfsburg"
+        }
+    },
+    {
+        "1": {
+            "odds": "1.80",
+            "team": "Ein"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "4.43",
+            "team": "Augsburg"
+        }
+    },
+    {
+        "1": {
+            "odds": "1.50",
+            "team": "Hamburg"
+        },
+        "X": {
+            "odds": "4.10",
+            "team": "X"
+        },
+        "2": {
+            "odds": "6.07",
+            "team": "Darmstadt"
+        }
+    },
+    {
+        "1": {
+            "odds": "2.15",
+            "team": "Ingolstadt"
+        },
+        "X": {
+            "odds": "3.35",
+            "team": "X"
+        },
+        "2": {
+            "odds": "3.21",
+            "team": "Werder"
+        }
+    },
+    {
+        "1": {
+            "odds": "3.23",
+            "team": "M"
+        },
+        "X": {
+            "odds": "3.60",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.05",
+            "team": "Dortmund"
+        }
+    },
+    {
+        "1": {
+            "odds": "3.16",
+            "team": "Freiburg"
+        },
+        "X": {
+            "odds": "3.40",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.15",
+            "team": "Leverkusen"
+        }
+    },
+    {
+        "1": {
+            "odds": "2.60",
+            "team": "Schalke"
+        },
+        "X": {
+            "odds": "3.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.61",
+            "team": "Lipsk"
+        }
+    },
+    {
+        "1": {
+            "odds": "2.60",
+            "team": "Schalke"
+        },
+        "X": {
+            "odds": "3.25",
+            "team": "X"
+        },
+        "2": {
+            "odds": "2.61",
+            "team": "Lipsk"
+        }
+    }
+]
