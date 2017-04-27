@@ -2,22 +2,28 @@ import json
 import re
 import requests
 from bs4 import BeautifulSoup
-
-BASE_URL = "https://www.sts.pl/pl/oferta/zaklady-bukmacherskie/zaklady-sportowe/?action=offer"
-
-r = requests.get(BASE_URL)
-
-r = requests.post(
-    "https://www.sts.pl/pl/oferta/zaklady-bukmacherskie/zaklady-sportowe/",
-    data={
-        'sport': '184',
+LIGUES_TO_ID = {
+'sport': '184',
         'region': '6482',
         'league': '4079',
         'action': 'offer',
+    }
+BASE_URL = "https://www.sts.pl/pl/oferta/zaklady-bukmacherskie/zaklady-sportowe/?action=offer"
 
-    })
-data = r.text
-soup = BeautifulSoup(data, "html.parser")
+
+
+def get_ligue_parse_html(url):
+    r = requests.post(
+        url,
+        data=LIGUES_TO_ID)
+    data = r.text
+    soup = BeautifulSoup(data, "html.parser")
+    return soup
+
+
+def get_ligue_url(ligue):
+    return LIGUES_TO_ID.get(ligue)
+
 
 def get_local_bets(soup):
     result = soup.find_all(
@@ -30,8 +36,9 @@ def get_local_bets(soup):
             bets_x.append(odds)
         for row in soup.find_all('td', {'class': "bet bigTip"}):
             choices = row.find('a').contents[0]
-            m = re.search(r"[A-Za-z]+", choices)
-            choices = m.group()
+            m = re.findall(r"[A-Za-z]+", choices)
+            print(m)
+            choices = m.pop()
             odds = row.find('a').span.text
             bet = {
 
@@ -47,7 +54,7 @@ def serialize_dictionary(bets):
     bets_x.reverse()
     final_bets = []
     size = len(bets)
-    for i in range(int(size)):
+    for i in range(size):
         if i % 2 == 0:
             bet = {
                 '1': {
@@ -65,8 +72,11 @@ def serialize_dictionary(bets):
                 'team': 'X',
                 'odds': bets_x.pop()
             }
+            bet['meta'] = {
+                'home': bet['1'].get('team'),
+                'away': bet['2'].get('team')
+            }
             final_bets.append(bet)
-    final_bets.append(bet)
     return final_bets
 
 
@@ -74,12 +84,13 @@ def dicts_to_json(bets):
     with open("sts.json", "w") as outfile:
         json.dump(bets, outfile, indent=4)
 
+if __name__ == '__main__':
+    soup = get_ligue_parse_html(BASE_URL)
+    bets = get_local_bets(soup)
+    x = serialize_dictionary(bets)
+    dicts_to_json(x)
 
-bets = get_local_bets(soup)
-x = serialize_dictionary(bets)
-dicts_to_json(x)
-
-
-######################
-#   IN BUILD
-######################
+##############################
+#   TODO
+#   MAKE DAY DATE IN BET DICTS
+##############################

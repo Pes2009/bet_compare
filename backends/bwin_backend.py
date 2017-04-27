@@ -4,10 +4,10 @@ import re
 import json
 
 LIGUES_TO_ID = {
-    "premier league": "46",
-    "la liga": "16108",
+    # "premier league": "46",
+    # "la liga": "16108",
     "bundesliga": "43",
-    "seria a": "42"
+    # "seria a": "42"
 }
 
 BASE_URL = "https://sports.bwin.com/en/sports/indexmultileague"
@@ -90,7 +90,7 @@ if __name__ == '__main__':
     bets = get_local_bets(soup)
     dicts_to_json(bets)
     print(bets)
-print(len(bets))
+    print(len(bets))
 
 ##############################
 #   TODO
