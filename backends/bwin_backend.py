@@ -40,19 +40,6 @@ def get_local_bets(soup):
         'div', {'class': "marketboard-event-group__item-container marketboard-event-group__item-container--level-2"})
     bets = []
     hour = []
-    number_teams_on_date_match_in_seq = []
-    # for date_match in soup.find_all(
-    #     'span', {'class': "marketboard-event-group__header-content marketboard-event-group__header-content--level-3"}):
-    #     print(date_match.text)
-    #
-    #
-    # number_of_date_match_on_page = soup.find_all(
-    #     'div', {'class': "marketboard-event-group__item-container marketboard-event-group__item-container--level-3"})
-    # print(len(number_of_date_match_on_page))
-    # for i in soup.find_all('div', {
-    #     'class': "marketboard-event-group__item-container marketboard-event-group__item-container--level-3"}):
-    #     number_teams_on_this_same_date = (len(i) - 1) / 2
-    #     number_teams_on_date_match_in_seq.append(int(number_teams_on_this_same_date))
     for i in range(len(result)):
         bet_rows = result[i].find_all('tr', {'class': "marketboard-options-row marketboard-options-row--3-way"})
         for link in soup.find_all('div', {'class': "marketboard-event-without-header__market-time"}):
