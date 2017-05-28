@@ -25,7 +25,7 @@ def print_stake(STS_STAKE, BWIN_STAKE):
 
 
 def search_team_name_in_backends(backends):
-    STS_STAKE = 1.01
+    STS_STAKE = 1.0 
     BWIN_STAKE = 1.0
     while True:
         try:
