@@ -14,10 +14,9 @@ def load_jsons(list_of_backends):
 
 
 def print_leagues(backends):
-    for i in backends:
-        for backend in backends.get(i, 'backend not found'):
-            print("{} - {}".format(backend.get('meta').get('home'),
-                                   backend.get('meta').get('away')))
+    for backend in backends.get('sts', 'backend not found'):
+        print("{} - {}".format(backend.get('meta').get('home'),
+                               backend.get('meta').get('away')))
 
 
 def print_stake(STS_STAKE, BWIN_STAKE):
@@ -26,10 +25,14 @@ def print_stake(STS_STAKE, BWIN_STAKE):
 
 
 def search_team_name_in_backends(backends):
-    STS_STAKE = 1.0
+    STS_STAKE = 1.01
     BWIN_STAKE = 1.0
-    first_team_name = input("name of the 1st team")
-    second_team_name = input("name of the 2th team")
+    while True:
+        try:
+            first_team_name, second_team_name = input("podaj nazwy zespolow").split()
+            break
+        except ValueError:
+            print("nie podales dwoch nazw")
     for i in backends:
         for backend in backends.get(i, 'backend not found'):
             if first_team_name in backend.get('meta').get('home') \
@@ -53,23 +56,28 @@ def search_team_name_in_backends(backends):
 
 
 def program_kernel():
-    x = True
-    while x == True:
-        z = input("1) wyswietl mecze\n"
-                  "2) obstaw mecz\n"
-                  "3) wyjdz\n")
-        if z == "1":
-            print_leagues(backends)
-        elif z == "2":
-            search_team_name_in_backends(backends)
+    while True:
+        try:
+            display_option = int(input("1) wyswietl mecze\n"
+                                       "2) obstaw mecz\n"
+                                       "3) wyjdz\n"))
+        except ValueError:
+            # assert z in y, "input should be 1,2 or 3"
+            print("Tylko liczby")
+
         else:
-            x = False
+            if display_option == 1:
+                print_leagues(backends)
+            elif display_option == 2:
+                search_team_name_in_backends(backends)
+            elif display_option == 3:
+                break
+            else:
+                print("zly wybor")
 
 
 if __name__ == '__main__':
     backends = load_jsons(NAMES_BACKENDS)
-    # search_team_name_in_backends(backends)
-    # print_leagues(backends)
     program_kernel()
     ################################################
     #   zoptymalizować kod oraz excepty            #
