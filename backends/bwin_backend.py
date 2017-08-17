@@ -5,7 +5,7 @@ import json
 
 LIGUES_TO_ID = {
     # "premier league": "46",
-    # "la liga": "16108",
+     "la liga": "16108",
     "bundesliga": "43",
     # "seria a": "42"
 }
@@ -38,6 +38,11 @@ def re_stake(stake):
 def get_local_bets(soup):
     result = soup.find_all(
         'div', {'class': "marketboard-event-group__item-container marketboard-event-group__item-container--level-2"})
+    pips = []
+    for ziozizo in soup.find_all(
+        'a', {'class':"marketboard-event-group__header-league-link marketboard-event-group__header-league-link--1"}):
+        pips.append(ziozizo.text)
+    print(pips)
     bets = []
     hour = []
     for i in range(len(result)):
@@ -76,7 +81,7 @@ if __name__ == '__main__':
     soup = get_ligue_parse_html(BASE_URL)
     bets = get_local_bets(soup)
     dicts_to_json(bets)
-    print(bets)
+   # print(bets)
     print(len(bets))
 
 ##############################
