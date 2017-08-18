@@ -34,21 +34,30 @@ def re_stake(stake):
     stake_word = re.findall(r"([\d.]*\d+)", stake)
     return stake_word
 
+def get_league(soup):
+    leagues = []
+    for i in soup.find_all(
+        'a', {'class':"marketboard-event-group__header-league-link marketboard-event-group__header-league-link--1"}):
+        leagues.append(i.text)
+    print(leagues)
+
+def get_match_hour(soup,bets):
+    hour = []
+    for link in soup.find_all('div', {'class': "marketboard-event-without-header__market-time"}):
+        hour.append(link.text)
+    for i in range(len(hour)):
+        bets[i]['date'] = {
+            'day': 'X',
+            'hour': hour[i]
+            }
+
 
 def get_local_bets(soup):
     result = soup.find_all(
         'div', {'class': "marketboard-event-group__item-container marketboard-event-group__item-container--level-2"})
-    pips = []
-    for ziozizo in soup.find_all(
-        'a', {'class':"marketboard-event-group__header-league-link marketboard-event-group__header-league-link--1"}):
-        pips.append(ziozizo.text)
-    print(pips)
     bets = []
-    hour = []
     for i in range(len(result)):
         bet_rows = result[i].find_all('tr', {'class': "marketboard-options-row marketboard-options-row--3-way"})
-        for link in soup.find_all('div', {'class': "marketboard-event-without-header__market-time"}):
-            hour.append(link.text)
         for row in bet_rows:
             choices = row.select('.mb-option-button__option-name')
             odds = row.select('.mb-option-button__option-odds')
@@ -63,11 +72,6 @@ def get_local_bets(soup):
                 'home': choices[0].text,
                 'away': choices[2].text
             }
-            for i in range(len(hour)):
-                bet['date'] = {
-                    'day': 'X',
-                    'hour': hour[i]
-                }
             bets.append(bet)
     return bets
 
@@ -80,7 +84,9 @@ def dicts_to_json(bets):
 if __name__ == '__main__':
     soup = get_ligue_parse_html(BASE_URL)
     bets = get_local_bets(soup)
+    get_match_hour(soup,bets)
     dicts_to_json(bets)
+    get_league(soup)
    # print(bets)
     print(len(bets))
 
