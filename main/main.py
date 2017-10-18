@@ -25,8 +25,6 @@ def print_stake(STS_STAKE, BWIN_STAKE):
 
 
 def search_team_name_in_backends(backends):
-    STS_STAKE = 1.0 
-    BWIN_STAKE = 1.0
     while True:
         try:
             first_team_name, second_team_name = input("podaj nazwy zespolow").split()
@@ -35,6 +33,7 @@ def search_team_name_in_backends(backends):
             print("nie podales dwoch nazw")
     for i in backends:
         for backend in backends.get(i, 'backend not found'):
+
             if first_team_name in backend.get('meta').get('home') \
                     and second_team_name in backend.get('meta').get('away'):
                 print("buchmaker {}".format(i))
@@ -50,17 +49,18 @@ def search_team_name_in_backends(backends):
     choice = input("wybierz 1, X, 2")
     sts_odds = float(sts.get(choice).get('odds'))
     bwin_odds = float(bwin.get(choice).get('odds'))
-    STS_STAKE *= sts_odds
-    BWIN_STAKE *= bwin_odds
-    print_stake(STS_STAKE, BWIN_STAKE)
+    return sts_odds, bwin_odds
 
 
 def program_kernel():
+    STS_STAKE = 1.0
+    BWIN_STAKE = 1.0
     while True:
         try:
             display_option = int(input("1) wyswietl mecze\n"
                                        "2) obstaw mecz\n"
-                                       "3) wyjdz\n"))
+                                       "3) kurs calkowity\n"
+                                       "4) wyjdz\n"))
         except ValueError:
             # assert z in y, "input should be 1,2 or 3"
             print("Tylko liczby")
@@ -69,8 +69,12 @@ def program_kernel():
             if display_option == 1:
                 print_leagues(backends)
             elif display_option == 2:
-                search_team_name_in_backends(backends)
+                sts_odds, bwin_odds = search_team_name_in_backends(backends)
+                STS_STAKE *= sts_odds
+                BWIN_STAKE *= bwin_odds
             elif display_option == 3:
+                print_stake(STS_STAKE, BWIN_STAKE)
+            elif display_option == 4:
                 break
             else:
                 print("zly wybor")

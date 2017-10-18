@@ -1,326 +1,308 @@
 [
     {
+        "2": {
+            "odds": "4.22",
+            "team": "Hannover"
+        },
+        "X": {
+            "odds": "3.75",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Hannover",
+            "home": "Gladbach"
+        },
+        "1": {
+            "odds": "1.75",
+            "team": "Gladbach"
+        }
+    },
+    {
+        "2": {
+            "odds": "1.57",
+            "team": "Dortmund"
+        },
+        "X": {
+            "odds": "3.75",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Dortmund",
+            "home": "Augsburg"
+        },
+        "1": {
+            "odds": "5.83",
+            "team": "Augsburg"
+        }
+    },
+    {
+        "2": {
+            "odds": "3.36",
+            "team": "Stuttgart"
+        },
         "X": {
             "odds": "3.45",
             "team": "X"
         },
-        "2": {
-            "odds": "3.36",
-            "team": "Schalke"
+        "meta": {
+            "away": "Stuttgart",
+            "home": "Frankfurt"
         },
         "1": {
             "odds": "2.05",
-            "team": "Leverkusen"
-        },
-        "meta": {
-            "away": "Schalke",
-            "home": "Leverkusen"
+            "team": "Frankfurt"
         }
     },
     {
-        "X": {
-            "odds": "3.25",
-            "team": "X"
-        },
         "2": {
-            "odds": "3.31",
-            "team": "Gladbach"
-        },
-        "1": {
-            "odds": "2.15",
+            "odds": "3.16",
             "team": "Mainz"
         },
-        "meta": {
-            "away": "Gladbach",
-            "home": "Mainz"
-        }
-    },
-    {
-        "X": {
-            "odds": "3.45",
-            "team": "X"
-        },
-        "2": {
-            "odds": "3.50",
-            "team": "Hertha"
-        },
-        "1": {
-            "odds": "2.00",
-            "team": "Werder"
-        },
-        "meta": {
-            "away": "Hertha",
-            "home": "Werder"
-        }
-    },
-    {
-        "X": {
-            "odds": "4.25",
-            "team": "X"
-        },
-        "2": {
-            "odds": "6.26",
-            "team": "Ingolstadt"
-        },
-        "1": {
-            "odds": "1.47",
-            "team": "Lipsk"
-        },
-        "meta": {
-            "away": "Ingolstadt",
-            "home": "Lipsk"
-        }
-    },
-    {
         "X": {
             "odds": "3.40",
             "team": "X"
         },
-        "2": {
-            "odds": "2.20",
-            "team": "Freiburg"
-        },
-        "1": {
-            "odds": "3.06",
-            "team": "Darmstadt"
-        },
         "meta": {
-            "away": "Freiburg",
-            "home": "Darmstadt"
-        }
-    },
-    {
-        "X": {
-            "odds": "5.50",
-            "team": "X"
-        },
-        "2": {
-            "odds": "8.05",
-            "team": "Koeln"
-        },
-        "1": {
-            "odds": "1.30",
-            "team": "Dortmund"
-        },
-        "meta": {
-            "away": "Koeln",
-            "home": "Dortmund"
-        }
-    },
-    {
-        "X": {
-            "odds": "4.25",
-            "team": "X"
-        },
-        "2": {
-            "odds": "1.40",
-            "team": "Bayern"
-        },
-        "1": {
-            "odds": "7.96",
-            "team": "Wolfsburg"
-        },
-        "meta": {
-            "away": "Bayern",
+            "away": "Mainz",
             "home": "Wolfsburg"
+        },
+        "1": {
+            "odds": "2.15",
+            "team": "Wolfsburg"
         }
     },
     {
+        "2": {
+            "odds": "2.60",
+            "team": "Werder"
+        },
         "X": {
             "odds": "3.20",
             "team": "X"
         },
-        "2": {
-            "odds": "2.76",
-            "team": "Hamburg"
-        },
-        "1": {
-            "odds": "2.50",
-            "team": "Augsburg"
-        },
-        "meta": {
-            "away": "Hamburg",
-            "home": "Augsburg"
-        }
-    },
-    {
-        "X": {
-            "odds": "3.85",
-            "team": "X"
-        },
-        "2": {
-            "odds": "5.60",
-            "team": "Frankfurt"
-        },
-        "1": {
-            "odds": "1.57",
-            "team": "Hoffenheim"
-        },
-        "meta": {
-            "away": "Frankfurt",
-            "home": "Hoffenheim"
-        }
-    },
-    {
-        "X": {
-            "odds": "3.50",
-            "team": "X"
-        },
-        "2": {
-            "odds": "2.98",
-            "team": "Werder"
-        },
-        "1": {
-            "odds": "2.20",
-            "team": "Koeln"
-        },
         "meta": {
             "away": "Werder",
-            "home": "Koeln"
+            "home": "Hamburg"
+        },
+        "1": {
+            "odds": "2.64",
+            "team": "Hamburg"
         }
     },
     {
-        "X": {
-            "odds": "4.45",
-            "team": "X"
-        },
         "2": {
-            "odds": "4.87",
+            "odds": "2.10",
             "team": "Hoffenheim"
         },
-        "1": {
-            "odds": "1.55",
-            "team": "Dortmund"
-        },
-        "meta": {
-            "away": "Hoffenheim",
-            "home": "Dortmund"
-        }
-    },
-    {
-        "X": {
-            "odds": "3.90",
-            "team": "X"
-        },
-        "2": {
-            "odds": "4.70",
-            "team": "Augsburg"
-        },
-        "1": {
-            "odds": "1.65",
-            "team": "Gladbach"
-        },
-        "meta": {
-            "away": "Augsburg",
-            "home": "Gladbach"
-        }
-    },
-    {
         "X": {
             "odds": "3.45",
             "team": "X"
         },
-        "2": {
-            "odds": "2.40",
-            "team": "Leverkusen"
+        "meta": {
+            "away": "Hoffenheim",
+            "home": "Freiburg"
         },
         "1": {
-            "odds": "2.71",
-            "team": "Ingolstadt"
-        },
-        "meta": {
-            "away": "Leverkusen",
-            "home": "Ingolstadt"
+            "odds": "3.23",
+            "team": "Freiburg"
         }
     },
     {
-        "X": {
-            "odds": "12.00",
-            "team": "X"
-        },
         "2": {
-            "odds": "32.90",
-            "team": "Darmstadt"
-        },
-        "1": {
-            "odds": "1.04",
+            "odds": "1.37",
             "team": "Bayern"
         },
-        "meta": {
-            "away": "Darmstadt",
-            "home": "Bayern"
-        }
-    },
-    {
         "X": {
-            "odds": "3.30",
+            "odds": "4.50",
             "team": "X"
         },
-        "2": {
-            "odds": "2.69",
-            "team": "Wolfsburg"
+        "meta": {
+            "away": "Bayern",
+            "home": "Hertha"
         },
         "1": {
-            "odds": "2.50",
-            "team": "Frankfurt"
-        },
-        "meta": {
-            "away": "Wolfsburg",
-            "home": "Frankfurt"
+            "odds": "8.12",
+            "team": "Hertha"
         }
     },
     {
-        "X": {
-            "odds": "3.30",
-            "team": "X"
-        },
         "2": {
-            "odds": "2.25",
+            "odds": "2.00",
             "team": "Lipsk"
         },
-        "1": {
-            "odds": "3.05",
-            "team": "Hertha"
+        "X": {
+            "odds": "3.30",
+            "team": "X"
         },
         "meta": {
             "away": "Lipsk",
-            "home": "Hertha"
+            "home": "Koeln"
+        },
+        "1": {
+            "odds": "3.67",
+            "team": "Koeln"
         }
     },
     {
-        "X": {
-            "odds": "3.40",
-            "team": "X"
-        },
         "2": {
-            "odds": "3.06",
-            "team": "Mainz"
+            "odds": "3.52",
+            "team": "Koeln"
         },
-        "1": {
-            "odds": "2.20",
-            "team": "Hamburg"
+        "X": {
+            "odds": "3.30",
+            "team": "X"
         },
         "meta": {
-            "away": "Mainz",
-            "home": "Hamburg"
+            "away": "Koeln",
+            "home": "Stuttgart"
+        },
+        "1": {
+            "odds": "2.05",
+            "team": "Stuttgart"
         }
     },
     {
+        "2": {
+            "odds": "4.42",
+            "team": "Hamburg"
+        },
         "X": {
-            "odds": "3.35",
+            "odds": "3.60",
             "team": "X"
         },
-        "2": {
-            "odds": "2.30",
-            "team": "Schalke"
+        "meta": {
+            "away": "Hamburg",
+            "home": "Mainz"
         },
         "1": {
-            "odds": "2.92",
-            "team": "Freiburg"
+            "odds": "1.75",
+            "team": "Mainz"
+        }
+    },
+    {
+        "2": {
+            "odds": "2.90",
+            "team": "Frankfurt"
+        },
+        "X": {
+            "odds": "3.10",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Frankfurt",
+            "home": "Hannover"
+        },
+        "1": {
+            "odds": "2.45",
+            "team": "Hannover"
+        }
+    },
+    {
+        "2": {
+            "odds": "2.65",
+            "team": "Schalke"
+        },
+        "X": {
+            "odds": "3.15",
+            "team": "X"
         },
         "meta": {
             "away": "Schalke",
-            "home": "Freiburg"
+            "home": "Hertha"
+        },
+        "1": {
+            "odds": "2.63",
+            "team": "Hertha"
+        }
+    },
+    {
+        "2": {
+            "odds": "4.28",
+            "team": "Augsburg"
+        },
+        "X": {
+            "odds": "3.70",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Augsburg",
+            "home": "Hoffenheim"
+        },
+        "1": {
+            "odds": "1.75",
+            "team": "Hoffenheim"
+        }
+    },
+    {
+        "2": {
+            "odds": "25.74",
+            "team": "Freiburg"
+        },
+        "X": {
+            "odds": "10.75",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Freiburg",
+            "home": "Bayern"
+        },
+        "1": {
+            "odds": "1.06",
+            "team": "Bayern"
+        }
+    },
+    {
+        "2": {
+            "odds": "5.23",
+            "team": "Lipsk"
+        },
+        "X": {
+            "odds": "4.60",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Lipsk",
+            "home": "Dortmund"
+        },
+        "1": {
+            "odds": "1.50",
+            "team": "Dortmund"
+        }
+    },
+    {
+        "2": {
+            "odds": "5.13",
+            "team": "Wolfsburg"
+        },
+        "X": {
+            "odds": "4.25",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Wolfsburg",
+            "home": "Leverkusen"
+        },
+        "1": {
+            "odds": "1.55",
+            "team": "Leverkusen"
+        }
+    },
+    {
+        "2": {
+            "odds": "2.54",
+            "team": "Gladbach"
+        },
+        "X": {
+            "odds": "3.45",
+            "team": "X"
+        },
+        "meta": {
+            "away": "Gladbach",
+            "home": "Werder"
+        },
+        "1": {
+            "odds": "2.55",
+            "team": "Werder"
         }
     }
 ]

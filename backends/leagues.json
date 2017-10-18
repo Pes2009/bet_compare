@@ -1,0 +1,39 @@
+
+
+[
+  {
+    "england": {
+      "premier league": "ls_46",
+      "championship": "ls_38090"
+    }
+  },
+  {
+    "spain": {
+      "la liga": "ls_16108",
+      "la liga 2": "ls_16110"
+    }
+  },
+  {
+    "germany": {
+      "bundesliga": "ls_43",
+      "2 bundesliga": "ls_79"
+    }
+  },
+  {
+    "italy": {
+      "serie a": "ls_42",
+      "serie b": "ls_57"
+    }
+  },
+  {
+    "france": {
+      "ligue 1": "ls_4131"
+    }
+  },
+  {
+    "poland": {
+      "ekstraklasa": "ls_10330",
+      "2 liga": "ls_42250"
+    }
+  }
+]
